@@ -1,12 +1,9 @@
 
- // 2. DIVs fade in (& reverse)
- // 3. On click show vignette (scroll to DOM element)
- // 4. Start video at scroll point
- // 5. Add pulsing behind buttons
 
 $(document).ready(function(){
 
-console.log('yes');
+
+ console.log('yes');
   //Vignette tag fade in
 
   	//CFA tag fade in
@@ -135,16 +132,6 @@ console.log('yes');
   		$('#KatieVig').hide();
 
   	}
-
-  	$('.vigTag').click(pauseAll);
-
-  	function pauseAll() {
-    	$('iframe[src*="vimeo.com"]').each(function () {
-        	$f(this).api('pause');
-        	return false;
-    	});
-	}
-
 
 
 });
