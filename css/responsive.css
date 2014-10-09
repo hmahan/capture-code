@@ -40,6 +40,7 @@
 
   .wrapper_inner--responsive .videoPlayer {
     position: static;
+    height: 400px;
   }
 
     .wrapper_inner--responsive .title--responsive {
@@ -87,7 +88,7 @@
   }
 
   .wrapper_inner--responsive .videoPlayer {
-    height: 400px;
+    height: 100%;
   }
 
 }
