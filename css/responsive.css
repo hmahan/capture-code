@@ -1,3 +1,7 @@
+.title--responsive {
+  display: none;
+}
+
 @media screen and (max-width: 1024px){
 
   /*Override of Bootstrap weirdness*/
@@ -13,28 +17,44 @@
     margin: 0 auto;
   }
 
-  .wrapper_inner--responsive .AVTEbg {
-    display: none;
+  .wrapper_inner--responsive .item {
+    height: auto;
+    margin: 0 0 70px 0;
   }
+
+    .wrapper_inner--responsive .AVTEbg {
+      display: none;
+    }
+
+    .wrapper_inner--responsive .blackScreen {
+      display: none;
+    }
 
   .wrapper_inner--responsive .AVTE {
     margin: 0;
   }
 
-  .wrapper_inner--responsive .item {
-    height: auto;
-  }
-
-  .wrapper_inner--responsive .blackScreen {
-    display: none;
-  }
-
-  .wrapper_inner--responsive .AVTE .titleBedRIGHT {
-    display: none;
-  }
+    .wrapper_inner--responsive .AVTE .titleBedRIGHT {
+      display: none;
+    }
 
   .wrapper_inner--responsive .videoPlayer {
     position: static;
+  }
+
+    .wrapper_inner--responsive .title--responsive {
+      display: block;
+    }
+
+    .wrapper_inner--responsive .title--responsive h2 {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 1em;
+      color: #E9EBEB;
+      line-height: 150%;
+    }
+
+  .wrapper_inner--responsive #frame1 {
+    margin: 0 0 100px;
   }
 
   .wrapper_inner--responsive #hedAndDek {
@@ -44,16 +64,16 @@
     height: auto;
   }
 
-  .wrapper_inner--responsive #hedAndDek h1 {
-    margin: 80px 0 0;
-    padding: 0;
-    text-align: center;
-  }
+    .wrapper_inner--responsive #hedAndDek h1 {
+      margin: 80px 0 0;
+      padding: 0;
+      text-align: center;
+    }
 
-  .wrapper_inner--responsive #hedAndDek h2 {
-    margin: 80px 0 0;
-    padding: 0;
-  }
+    .wrapper_inner--responsive #hedAndDek h2 {
+      margin: 80px 0 0;
+      padding: 0;
+    }
 
 }
 
@@ -66,4 +86,8 @@
     font-size: 1.05em;
   }
 
+  .wrapper_inner--responsive .videoPlayer {
+    height: 400px;
   }
+
+}
