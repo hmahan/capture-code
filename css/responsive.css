@@ -1,0 +1,69 @@
+@media screen and (max-width: 1024px){
+
+  /*Override of Bootstrap weirdness*/
+
+  body {
+    padding: 0;
+  }
+
+  /*Targeting elements within the responsive wrapper that I created in the responsive JS so that these styles don't kick in when resizing from big to small on desktop*/
+
+  .wrapper_inner--responsive {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .wrapper_inner--responsive .AVTEbg {
+    display: none;
+  }
+
+  .wrapper_inner--responsive .AVTE {
+    margin: 0;
+  }
+
+  .wrapper_inner--responsive .item {
+    height: auto;
+  }
+
+  .wrapper_inner--responsive .blackScreen {
+    display: none;
+  }
+
+  .wrapper_inner--responsive .AVTE .titleBedRIGHT {
+    display: none;
+  }
+
+  .wrapper_inner--responsive .videoPlayer {
+    position: static;
+  }
+
+  .wrapper_inner--responsive #hedAndDek {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .wrapper_inner--responsive #hedAndDek h1 {
+    margin: 80px 0 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .wrapper_inner--responsive #hedAndDek h2 {
+    margin: 80px 0 0;
+    padding: 0;
+  }
+
+}
+
+@media screen and (max-width: 550px){
+  .wrapper_inner--responsive #hedAndDek h1 {
+    font-size: 4.5em
+  }
+
+  .wrapper_inner--responsive #hedAndDek h2 {
+    font-size: 1.05em;
+  }
+
+  }
